@@ -2,28 +2,51 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <style>
+     li a {
+        color: blue
+      }
+      li a {
+        border: 1px solid black;
+      }
+      div {
+        border: 1px solid black;
+      }
+      div a {
+        color: green
+      }
+      #exec-bio {
+        background-color: lightgray;
+      }
+      .bio-box{
+        border: 1px solid black;
+      }
+      .bio-box a {
+        color: green;
+      }
+    </style>
     <title>Test Page: Don't Panic</title>
   </head>
   <body>
     <h1>I'm a H1</h1>
     <ul>
       <li>
-      <a href="https://example.com" color: red;>Link</a>
+      <a href="https://example.com">Link</a>
     </li>
-    <li> <a href="https://example.com" color: red;>Link</a>
+    <li> <a href="https://example.com">Link</a>
     </li>
-    <li><a href="https://example.com" color: red;>Link</a>
+    <li><a href="https://example.com">Link</a>
     </li>
     </ul>
     <h2>I'm a H2</h2>
-    <div style="border: ipx solid black;">
-      <a href="https//example.com/" style="color: green;">I'm a link</a>
+    <div id="exec-bio" class="bio-box">
+      <a href="https//example.com/">I'm a link</a>
     </div>
-    <div style="border: ipx solid black;">
-      <a href="https//example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box">
+      <a href="https//example.com/">I'm a link</a>
     </div>
-    <div style="border: ipx solid black;">
-      <a href="https//example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box">
+      <a href="https//example.com/">I'm a link</a>
     </div>
   </body>
 </html>
